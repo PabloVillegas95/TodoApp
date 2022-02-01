@@ -65,7 +65,7 @@ module.exports = {
     plugins: [
         new HtmlWebpack({
             title: 'Mi Webpack App',
-            filename: '[name].[fullhash].html',
+            filename: 'index.html',
             template: './src/index.html'
         }),
 
